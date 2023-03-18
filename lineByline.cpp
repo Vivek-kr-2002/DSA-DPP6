@@ -98,11 +98,11 @@ void LineByLine(Node * root) {
  
  
 int main() {
-Node* root = newNode();
-    root->left = newNode();
-    root->right = newNode();
-    root->left->left = newNode();
-    root->left->right = newNode();
+Node* root = newNode(12);
+    root->left = newNode(23);
+    root->right = newNode(34);
+    root->left->left = newNode(43);
+    root->left->right = newNode(53);
     
     LineByLine(root);
 return 0;
